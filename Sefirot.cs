@@ -23,6 +23,6 @@ class Program
         Sefirot sefirot1 = new Sefirot("Chesed");
 
         // Mostrando o valor
-        pessoa1.MostrarNome();
+        sefirot1.MostrarNome();
     }
 }
