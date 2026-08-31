@@ -20,7 +20,7 @@
         funcionario2.DepartamentoE = "Informação";
 
         anormalidade1.NivelA = "WAW";
-        anormalidade2.Nome = "Censored";
+        anormalidade2.NomeA = "Censored";
 
         Console.WriteLine("================================");
         Console.WriteLine("            SEFIROT");

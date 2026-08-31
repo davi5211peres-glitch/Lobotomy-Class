@@ -3,7 +3,7 @@ public class Anormalidade
     private string nomeA = "";
     private string nivelA = "";
 
-    public string Nome
+    public string NomeA
     {
         get { return nomeA; }
         set
@@ -29,12 +29,12 @@ public class Anormalidade
 
     public Anormalidade(string nomeA, string nivelA)
     {
-        Nome = nomeA;
+        NomeA = nomeA;
         NivelA = nivelA;
     }
 
     public override string ToString()
     {
-        return $"| Anormalidade: {Nome} | Nivel: {NivelA} |";
+        return $"| Anormalidade: {NomeA} | Nivel: {NivelA} |";
     }
 }
