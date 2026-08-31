@@ -21,8 +21,8 @@ public class Employee
         get { return idadeE; }
         set
         {
-            if (value < 0 || value > 120)
-                throw new ArgumentException("\n| Idade do funcionario inválida. |\n");
+            if (value <= 0 || value > 120)
+                throw new ArgumentException("\n| Idade do funcionario não pode ser maior que 120 ou menor que 0. |\n");
 
             idadeE = value;
         }
