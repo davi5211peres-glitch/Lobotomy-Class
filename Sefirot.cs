@@ -9,7 +9,7 @@ public class Sefirot
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("| O nome do sefirot não pode ser vazio. |");
+                throw new ArgumentException("\n| O nome do sefirot não pode ser vazio. |\n");
 
             nomeS = value;
         }
@@ -21,7 +21,7 @@ public class Sefirot
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("| O departamento não pode ser vazio. |");
+                throw new ArgumentException("\n| O departamento não pode ser vazio. |\n");
 
             departamentoS = value;
         }

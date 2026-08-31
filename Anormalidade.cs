@@ -9,7 +9,7 @@ public class Anormalidade
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("| O nome da anormalidade não pode ser vazio. |");
+                throw new ArgumentException("\n| O nome da anormalidade não pode ser vazio. |\n");
 
             nomeA = value;
         }
@@ -21,7 +21,7 @@ public class Anormalidade
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("| O nivel da anormalidade não pode ser vazio. |");
+                throw new ArgumentException("\n| O nivel da anormalidade não pode ser vazio. |\n");
 
             nivelA = value;
         }

@@ -10,7 +10,7 @@ public class Employee
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("| O nome do funcionario não pode ser vazio. |");
+                throw new ArgumentException("\n| O nome do funcionario não pode ser vazio. |\n");
 
             nomeE = value;
         }
@@ -22,7 +22,7 @@ public class Employee
         set
         {
             if (value < 0 || value > 120)
-                throw new ArgumentException("| Idade do funcionario inválida. |");
+                throw new ArgumentException("\n| Idade do funcionario inválida. |\n");
 
             idadeE = value;
         }
@@ -34,7 +34,7 @@ public class Employee
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("| O departamento do funcionario não pode ser vazio. |");
+                throw new ArgumentException("\n| O departamento do funcionario não pode ser vazio. |\n");
 
             departamentoE = value;
         }
