@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lobotomy-Class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+548aa78b817b7f59ec321168ef6810fbf44b0c29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16940e2765fdc0bd40d9cd54aef4e12f06e10056")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lobotomy-Class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lobotomy-Class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

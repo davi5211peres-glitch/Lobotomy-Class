@@ -1,28 +1,40 @@
-class Sefirot
+public class Sefirot
 {
-    private string? Nome;
-    private string? Departamento;
+    private string nomeS = "";
+    private string departamentoS = "";
 
-    public Sefirot(string nome , string departamento)
+    public string NomeS
     {
-        this.nome == nome;
-        this.departamento == departamento;
+        get { return nomeS; }
+        set
+        {
+            if (string.IsNullOrWhiteSpace(value))
+                throw new ArgumentException("| O nome do sefirot não pode ser vazio. |");
+
+            nomeS = value;
+        }
     }
 
-    public void MostrarNome()
+    public string DepartamentoS
     {
-        Console.WriteLine("Nome: " + nome);
+        get { return departamentoS; }
+        set
+        {
+            if (string.IsNullOrWhiteSpace(value))
+                throw new ArgumentException("| O departamento não pode ser vazio. |");
+
+            departamentoS = value;
+        }
     }
 
-}
-class Program
-{
-    static void Main()
+    public Sefirot(string nomeS, string departamentoS)
     {
-        // Criando o objeto e colocando um valor no atributo privado
-        Sefirot sefirot1 = new Sefirot("Chesed");
+        NomeS = nomeS;
+        DepartamentoS = departamentoS;
+    }
 
-        // Mostrando o valor
-        sefirot1.MostrarNome();
+    public override string ToString()
+    {
+        return $"| Nome: {NomeS} | Departamento: {DepartamentoS} |";
     }
 }

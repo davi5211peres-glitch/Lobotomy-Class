@@ -1,0 +1,15 @@
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\bin\Debug\net10.0\Lobotomy-Class.exe
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\bin\Debug\net10.0\Lobotomy-Class.deps.json
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\bin\Debug\net10.0\Lobotomy-Class.runtimeconfig.json
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\bin\Debug\net10.0\Lobotomy-Class.dll
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\bin\Debug\net10.0\Lobotomy-Class.pdb
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.AssemblyInfoInputs.cache
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.AssemblyInfo.cs
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.csproj.CoreCompileInputs.cache
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.sourcelink.json
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.dll
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\refint\Lobotomy-Class.dll
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.pdb
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\Lobotomy-Class.genruntimeconfig.cache
+C:\Users\davi61090836\Documents\GitHub\Lobotomy-Class\obj\Debug\net10.0\ref\Lobotomy-Class.dll
