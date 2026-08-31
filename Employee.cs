@@ -10,7 +10,7 @@ public class Employee
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("O nome do funcionario não pode ser vazio.");
+                throw new ArgumentException("| O nome do funcionario não pode ser vazio. |");
 
             nomeE = value;
         }
